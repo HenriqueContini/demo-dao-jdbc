@@ -90,6 +90,6 @@ public class Seller implements Serializable {
 
     @Override
     public String toString() {
-        return String.format("Seller: %d - %s, R$ %.2f", id, name, baseSalary) + " | " + department;
+        return String.format("Seller: %d - %s, %s, R$ %.2f, ", id, name, email, baseSalary) + birthDate + " | " + department;
     }
 }
